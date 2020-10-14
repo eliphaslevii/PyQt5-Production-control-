@@ -114,10 +114,10 @@ class MainWindow(QMainWindow):
 
             # Mysql.Conn -> Parâmetros de conexão
             self.mydb = mysql.connector.connect(
-                host="192.168.0.135",
-                user="pythonbr1",
-                password="Jcr1st0",
-                database="production"
+                host="YOURIP",
+                user="YOURUSERNAME",
+                password="YOURPASSWD",
+                database="YOUTDATABASE"
             )
 
             def now():
